@@ -21,7 +21,12 @@ const Table = () => {
   useEffect(() => {
     require("axios")
       .get(
-        "https://api.nomics.com/v1/currencies/ticker?key=46067c0fde2057144299fe848aa90229075808d4&interval=1d,30d&convert=EUR&per-page=100&page=1"
+        "https://stormy-anchorage-40472.herokuapp.com/https://api.nomics.com/v1/currencies/ticker?key=46067c0fde2057144299fe848aa90229075808d4&interval=1d,30d&convert=EUR&per-page=100&page=1",
+        {
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        }
       )
       .then((response) => {
         console.log(response.data);
