@@ -17,7 +17,6 @@ class Footer extends Component {
               Developed by{" "}
               <a href="/home" target="_blank" rel="noopener noreferrer">
                 {" "}
-                Prasannna Naik{" "}
               </a>{" "}
             </span>
           </div>
