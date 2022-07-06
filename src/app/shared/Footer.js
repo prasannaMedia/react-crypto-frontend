@@ -14,7 +14,7 @@ class Footer extends Component {
               2021
             </span>
             <span className="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
-              Developed by{" "}
+              Developed by chintan
               <a href="/home" target="_blank" rel="noopener noreferrer">
                 {" "}
               </a>{" "}
